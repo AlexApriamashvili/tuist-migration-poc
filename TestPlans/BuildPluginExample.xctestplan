@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "1874603A-0893-4B5E-A44A-D5CE29ED1938",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:BuildPluginExample.xcodeproj",
+      "identifier" : "58C40D902CA6883F004802B5",
+      "name" : "BuildPluginExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:BuildPluginExample\/Packages\/Common",
+        "identifier" : "CommonTests",
+        "name" : "CommonTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BuildPluginExample.xcodeproj",
+        "identifier" : "58C40DAD2CA68B75004802B5",
+        "name" : "BuildPluginExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

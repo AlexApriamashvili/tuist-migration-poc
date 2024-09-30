@@ -1,0 +1,31 @@
+# Mac OS X
+.DS_Store
+*.swp
+*~.nib
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+*xcuserdata
+*.xccheckout
+*.mode1v3
+*.mode2v3
+*.moved-aside
+
+# Xcode
+*xcshareddata/xcbaselines
+*xcshareddata/*.xcscmblueprint
+*xcshareddata/WorkspaceSettings.xcsettings
+
+# AppCode
+.idea
+
+# VSCode
+.vscode
+
+# Git
+*.orig
+
+
+# Bundler
+/vendor/bundle
