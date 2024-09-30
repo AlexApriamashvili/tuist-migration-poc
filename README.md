@@ -2,6 +2,8 @@
 
 This repository contains an example configuration of an iOS project that simulates a real-world application and illustrates the problems encountered when executing Build Tool plug-ins while compiling the application for testing.
 
+Swift forums [link](https://forums.swift.org/t/buildtool-plug-in-spm-build-tool-plugin-issue-in-xcode-generated-files-not-found/75021)
+
 Below is a brief description of the project configuration along with some investigation details to date.
 
 ## Configuration
