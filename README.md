@@ -43,11 +43,6 @@ flowchart TD
     D --> C & B
     E --> F
     B --> E
-
-    style MainApplication fill:#BBDEFB
-    style SMPPackage fill:#BBDEFB
-    style ApplicationScope color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
-    style BuildToolPluginPackage color:#FFFFFF, stroke:#00C853, fill:#00C853
 ```
 
 ## Reproducing the problem
