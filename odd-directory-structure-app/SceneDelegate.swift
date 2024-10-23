@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  BuildPluginExample
-//
-//  Created by Alex Apriamashvili on 27/9/2024.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

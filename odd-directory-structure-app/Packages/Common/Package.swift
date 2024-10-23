@@ -8,26 +8,24 @@ let package = Package(
   defaultLocalization: "en",
   platforms: [.iOS(.v15)],
   products: [
-    .library(name: "Common", targets: ["Common"]),
-    .library(name: "CommonTestingSupport", targets: ["CommonTestingSupport"]),
+    .library(name: "Common", type: .dynamic, targets: ["Common"]),
+    .library(name: "CommonTestingSupport", type: .dynamic, targets: ["CommonTestingSupport"]),
   ],
 
-  dependencies: [
-    .package(name: "BuildPlugins", path: "../BuildPlugins"),
-  ],
+  dependencies: [],
 
   targets: [
+    
     .target(
       name: "Common",
       resources: [
         .process("Resources"),
-      ],
-      plugins: [
-        .plugin(name: "PackageBundlePlugin", package: "BuildPlugins")
       ]
     ),
+
     .target(name: "CommonTestingSupport", dependencies: ["Common"]),
-    .testTarget(
+    
+      .testTarget(
       name: "CommonTests",
       dependencies: [
         "Common",

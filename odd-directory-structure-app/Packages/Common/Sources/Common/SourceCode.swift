@@ -14,7 +14,7 @@ public class Foo {
   }
 
   public func calculate() -> Int {
-    print(Bundle.module.path(forResource: "1MBImage", ofType: "jpg")!)
+//    print(Bundle.package.path(forResource: "1MBImage", ofType: "jpg")!)
     return (a * multiplier.multiplier - b) * multiplier.multiplier
   }
 }

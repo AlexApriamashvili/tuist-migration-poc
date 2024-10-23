@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "1874603A-0893-4B5E-A44A-D5CE29ED1938",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:tuist-poc.xcodeproj",
+      "identifier" : "58C40D902CA6883F004802B5",
+      "name" : "tuist-poc"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
