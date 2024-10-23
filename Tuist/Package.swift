@@ -19,5 +19,6 @@ let package = Package(
         // .package(url: "https://github.com/Alamofire/Alamofire", from: "5.0.0"),
         // You can read more about dependencies here: https://docs.tuist.io/documentation/tuist/dependencies
         .package(path: "../odd-directory-structure-app/Packages/Common"),
+        .package(url: "https://github.com/open-telemetry/opentelemetry-swift", .exact("1.10.1")), // <--- this dependency seems to be causing the problem
     ]
 )
